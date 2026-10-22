@@ -1,0 +1,73 @@
+{
+  "methods_version": "1.0",
+  "terrace_management_practices": [
+    {
+      "id": "stone_bund_stabilization",
+      "title": "Dry-Stone Riser and Bund Reinforcement",
+      "purpose": "Prevent terrace collapse, soil wash-off during sudden snowmelt or monsoon downpours, and retain moisture.",
+      "applicable_conditions": ["steep_slope", "gentle_slope", "uneven_or_rocky"],
+      "tools_materials": ["Local flat stones", "Crowbar", "Soil tamp", "Gravel for drainage backing"],
+      "instructions": [
+        "Inspect the terrace edge (riser) after winter freeze-thaw cycles for bulging or loose stones.",
+        "Re-stack stones with a slight inward batter (slope leaning into the hill terrace) of 1:5.",
+        "Pack small gravel directly behind the stone wall to allow seepage of excess water without carrying precious topsoil.",
+        "Establish vegetative bund cover using deep-rooted perennial grasses or broad bean border rows."
+      ],
+      "source_reference": "ICAR-VPKAS Almora Res. Bull. 38: Soil and Water Conservation on Himalayan Agricultural Terraces"
+    },
+    {
+      "id": "raised_bed_drainage",
+      "title": "Raised Cold-Terrace Planting Beds (15-20 cm)",
+      "purpose": "Warm soil 3-5°C faster in spring, avoid waterlogging in clay or poorly drained soils, and improve root aeration.",
+      "applicable_conditions": ["sticky_and_clay_like", "water_remains_long", "pools_on_surface", "cold_days_cold_nights"],
+      "tools_materials": ["Spade / Shovel", "Hand rake", "Well-rotted compost (FYM)"],
+      "instructions": [
+        "Mark 1-meter wide planting beds running along the contour of the terrace (never perpendicular to slope).",
+        "Dig shallow pathways (30 cm wide) between beds and mound topsoil onto the bed to create a 15-20 cm raised platform.",
+        "Incorporate 4-5 kg/m² well-rotted farmyard manure (FYM) or mature compost into the upper 10 cm.",
+        "Crown the center of the bed slightly so excess rainfall sheds smoothly into the perimeter drainage furrows."
+      ],
+      "source_reference": "GBPUAT Hill Agriculture Extension Manual & ICAR-VPKAS"
+    },
+    {
+      "id": "thermal_mulching_cloche",
+      "title": "Thermal Micro-Cloche and Organic Straw Mulching",
+      "purpose": "Protect emerging seedlings from lethal -2°C to -6°C nocturnal radiation frosts and conserve moisture.",
+      "applicable_conditions": ["frequent_frost", "expected_during_growing_period", "large_temperature_changes", "dry_and_dusty"],
+      "tools_materials": ["Dry mountain grass or wheat/barley straw", "Flexible willow/bamboo hoops", "UV-stabilized clear poly-sheet or agrifleece (30-50 GSM)", "Stones to weigh down edges"],
+      "instructions": [
+        "After direct sowing or transplanting, spread a 5-7 cm layer of dry straw between plant rows, keeping mulch 2 cm away from stems.",
+        "Bend flexible bamboo arches every 1.2 meters over the terrace bed.",
+        "Drape lightweight agrifleece or polythene over arches before sunset when frost is forecasted.",
+        "Ventilate or roll up covers during sunny midday hours to prevent heat stress and humidity spikes."
+      ],
+      "source_reference": "SKUAST-K & KVK Leh Bulletin on Protected Mountain Agriculture"
+    },
+    {
+      "id": "windbreak_and_sun_trap",
+      "title": "Terrace Windbreak and Solar Heat Retention",
+      "purpose": "Buffer against desiccating cold Himalayan winds and maximize thermal energy capture on north/west terraces.",
+      "applicable_conditions": ["cold_days_cold_nights", "very_cold_conditions", "mostly_shaded", "seasonal_variation"],
+      "tools_materials": ["Local brushwood / woven willow hurdles", "Stakes", "Dark thermal stones"],
+      "instructions": [
+        "Erect a 1.2m semi-permeable woven brushwood screen on the terrace edge facing prevailing mountain winds (usually NW/N).",
+        "Place dark river cobbles or slate stones along northern bed borders: they absorb daytime solar radiation and re-radiate warmth during cold nights.",
+        "Avoid solid impermeable walls which create damaging wind eddies over delicate crops."
+      ],
+      "source_reference": "Dr. Y.S. Parmar UHF Solan Extension Guide"
+    },
+    {
+      "id": "cold_water_tempering",
+      "title": "Irrigation Water Pre-Warming Basin",
+      "purpose": "Prevent root temperature shock caused by icy glacial snowmelt or mountain stream water (often 3-6°C).",
+      "applicable_conditions": ["reliable_irrigation", "seasonal_availability", "cold_days_cold_nights"],
+      "tools_materials": ["Dark 200L drum or shallow earthen pit lined with black plastic"],
+      "instructions": [
+        "Fill the holding basin or dark drum with stream/spring water in the early morning.",
+        "Allow sun to warm water to ambient temperature (12-18°C) before applying to root zones in late morning (10 AM - 12 PM).",
+        "Never irrigate in the late evening, as wet foliage will freeze solid during nocturnal frost events."
+      ],
+      "source_reference": "ICAR-CPRI Shimla Tech. Bull. No. 42"
+    }
+  ]
+}

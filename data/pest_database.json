@@ -1,0 +1,256 @@
+{
+  "pest_database_version": "1.0",
+  "disorders_and_pests": [
+    {
+      "id": "late_blight",
+      "common_name": "Late Blight",
+      "scientific_name": "Phytophthora infestans",
+      "category": "disease_fungal_like",
+      "affected_crops": ["potato"],
+      "primary_symptoms": ["leaf_spots", "rotting_plant_parts", "wilting"],
+      "affected_plant_parts": ["leaves", "stems", "tubers"],
+      "conducive_weather": "Cool (12-18°C), high relative humidity (>85%), prolonged wet foliage from fog or drizzle",
+      "distinguishing_features": "Water-soaked irregular brown lesions on leaf tips or margins; delicate white powdery/velvety mold ring under leaf surface in humid mornings; foul rotting odor in severe cases.",
+      "cultural_controls": [
+        "Use certified disease-free seed tubers from trusted hill seed farms (e.g. ICAR-CPRI Kufri Jyoti / Kufri Himalini).",
+        "Maintain wide terrace row spacing (60 cm) to facilitate air circulation and rapid canopy drying.",
+        "Avoid overhead sprinkling; irrigate into soil furrows in late morning.",
+        "Ensure high hilling/earthing-up to physically shield growing tubers from washed-down spores."
+      ],
+      "physical_controls": [
+        "Immediately clip and burn or deeply bury early infected lower leaves (do NOT add to compost pile).",
+        "Cut foliage (haulm killing) 10-12 days before tuber harvest if late blight is active to prevent spores touching tubers during digging."
+      ],
+      "biological_controls": [
+        "Preventive foliar spray of Trichoderma viride or Pseudomonas fluorescens (5 g/L) during early vegetative stages."
+      ],
+      "safe_treatments": [
+        "Preventive application of Bordeaux mixture (1%) or Copper oxychloride (2.5 g/L) before continuous wet/foggy spells as permitted in hill agriculture guidelines."
+      ],
+      "escalation_criteria": "If more than 15-20% of terrace foliage is rapidly browning within 48 hours under persistent mountain mist, report to local Krishi Vigyan Kendra (KVK) plant clinic immediately.",
+      "sources": ["ICAR-CPRI Shimla Late Blight Forecasting & Management Bulletin"]
+    },
+    {
+      "id": "powdery_mildew",
+      "common_name": "Powdery Mildew",
+      "scientific_name": "Erysiphe pisi / Erysiphe cruciferarum",
+      "category": "disease_fungal",
+      "affected_crops": ["garden_pea", "cabbage", "cauliflower", "turnip"],
+      "primary_symptoms": ["white_powdery_growth", "yellowing", "stunted_growth"],
+      "affected_plant_parts": ["leaves", "stems", "pods"],
+      "conducive_weather": "Dry sunny days with cool humid nights (typical autumn terrace conditions)",
+      "distinguishing_features": "Talcum-powder-like white spots that expand to coat entire upper leaf surfaces; affected leaves turn chlorotic yellow, curl upward, and dry out prematurely.",
+      "cultural_controls": [
+        "Select resistant varieties (e.g., Pea varieties VL Aakash / VL Matar 8 from ICAR-VPKAS).",
+        "Avoid excess nitrogen fertilizer which creates dense, succulent foliage susceptible to infection.",
+        "Plant with adequate spacing facing the morning sun to ensure prompt drying of dew."
+      ],
+      "physical_controls": [
+        "Carefully pinch and remove lower infected leaves showing early white powder patches."
+      ],
+      "biological_controls": [
+        "Foliar spray with Ampelomyces quisqualis or Bacillus subtilis formulation.",
+        "Diluted fresh cow milk spray (1 part milk to 9 parts water) exposed to sunlight produces free radicals that disrupt fungal mycelium."
+      ],
+      "safe_treatments": [
+        "Potassium bicarbonate or wettable sulfur (2 g/L) applied early in the morning. Avoid sulfur application during rare hot days (>28°C)."
+      ],
+      "escalation_criteria": "If powdery growth spreads to developing pea pods or cauliflower heads during flowering/curd stage.",
+      "sources": ["ICAR-VPKAS Almora Package of Practices for Hill Vegetables"]
+    },
+    {
+      "id": "cabbage_white_caterpillar",
+      "common_name": "Cabbage White Caterpillar & Diamondback Moth",
+      "scientific_name": "Pieris brassicae / Plutella xylostella",
+      "category": "pest_insect",
+      "affected_crops": ["cabbage", "cauliflower", "radish", "turnip", "leafy_mustard"],
+      "primary_symptoms": ["holes_in_leaves", "visible_insects", "chewed_stems"],
+      "affected_plant_parts": ["leaves", "curds", "growing_tips"],
+      "conducive_weather": "Mild sunny spells in spring and post-monsoon hill seasons",
+      "distinguishing_features": "Irregular large holes chewed through leaves leaving only tough veins (skeletonization); clusters of bright yellow eggs on underside of leaves; green hairy caterpillars with dark spots; dark green fecal pellets (frass) lodged in leaf axils.",
+      "cultural_controls": [
+        "Intercrop with strong aromatic repellent plants like garlic or coriander along terrace edges.",
+        "Plant Indian mustard (Brassica juncea) as a trap crop around cabbage beds: caterpillars prefer mustard, keeping main crops clean."
+      ],
+      "physical_controls": [
+        "Handpick and destroy egg clusters and visible feeding caterpillars every morning.",
+        "Install fine insect mesh netting (40 mesh) over terrace hoops from early transplanting."
+      ],
+      "biological_controls": [
+        "Spray Bacillus thuringiensis (Bt var. kurstaki) at 1.5-2.0 g/L in the evening; highly selective against caterpillars without harming pollinators or bees.",
+        "Neem Seed Kernel Extract (NSKE 5%) or cold-pressed neem oil (5 ml/L + drop of mild soap) as an anti-feedant."
+      ],
+      "safe_treatments": [
+        "Local wood ash dusted over wet dew-covered leaves in early morning acts as an abrasive deterrent."
+      ],
+      "escalation_criteria": "If inner central growing head (heart) of cabbage or cauliflower curd is breached by bore-in larvae.",
+      "sources": ["Dr. Y.S. Parmar UHF Solan IPM in Mountain Cruciferous Crops"]
+    },
+    {
+      "id": "aphids_green_peach_cabbage",
+      "common_name": "Aphids (Green Peach & Cabbage Aphid)",
+      "scientific_name": "Myzus persicae / Brevicoryne brassicae",
+      "category": "pest_insect",
+      "affected_crops": ["potato", "cabbage", "cauliflower", "spinach", "garden_pea", "leafy_mustard"],
+      "primary_symptoms": ["yellowing", "wilting", "sticky_residue", "stunted_growth", "visible_insects"],
+      "affected_plant_parts": ["underside_of_leaves", "growing_tips", "tender_stems"],
+      "conducive_weather": "Dry cool periods, protected microclimates, absence of driving rain",
+      "distinguishing_features": "Dense colonies of tiny soft-bodied green, greyish, or black pear-shaped insects huddled under leaves; sticky, sweet honeydew excretion causing secondary black sooty mold; crinkled, cupped young leaves.",
+      "cultural_controls": [
+        "Avoid over-fertilizing with quick-release nitrogen which stimulates aphid population explosions.",
+        "Encourage native predatory beneficials (ladybird beetles, hoverfly larvae, lacewings) by planting hill flowering borders (fennel, sweet alyssum)."
+      ],
+      "physical_controls": [
+        "Dislodge dense colonies using a firm jet of cool water directed at leaf undersides in the morning.",
+        "Install yellow sticky cards (1 per 10 m² terrace bed) suspended 10 cm above plant canopy to trap winged migrants."
+      ],
+      "biological_controls": [
+        "Conserve Coccinella septempunctata (7-spotted ladybird beetle) adults and alligator-like larvae commonly found on mountain terraces.",
+        "Spray Verticillium lecanii or Beauveria bassiana (5 g/L) under humid conditions."
+      ],
+      "safe_treatments": [
+        "Mild potassium horticultural soap spray (10-15 ml/L) or neem oil (3-5 ml/L) to dissolve insect protective cuticle."
+      ],
+      "escalation_criteria": "If aphids act as vectors transmitting mosaic viruses (mottled yellow foliage, severe leaf curling) across potato seed crops.",
+      "sources": ["ICAR-IARI Katrain Vegetable Entomology Guide"]
+    },
+    {
+      "id": "flea_beetle",
+      "common_name": "Crucifer Flea Beetle",
+      "scientific_name": "Phyllotreta cruciferae",
+      "category": "pest_insect",
+      "affected_crops": ["radish", "turnip", "cabbage", "leafy_mustard"],
+      "primary_symptoms": ["holes_in_leaves", "stunted_growth", "visible_insects"],
+      "affected_plant_parts": ["seedling_cotyledons", "young_leaves"],
+      "conducive_weather": "Warm, sunny, dry days in early mountain spring when seedlings emerge",
+      "distinguishing_features": "Numerous tiny round 'shot-hole' perforations (1-2 mm) peppered across leaves; tiny shiny black or bronze beetles that jump vigorously like fleas when approached.",
+      "cultural_controls": [
+        "Maintain consistently moist seedbed during the first 3 weeks; flea beetles dislike wet, cool conditions.",
+        "Use thick organic straw mulch immediately around seedlings."
+      ],
+      "physical_controls": [
+        "Keep beds covered with floating row cover (agrifleece) from sowing until seedlings develop 5-6 true leaves.",
+        "Dust fine wood ash or diatomaceous earth onto damp morning foliage."
+      ],
+      "biological_controls": [
+        "Beneficial entomopathogenic nematodes (Heterorhabditis bacteriophora) applied to terrace soil to parasitize overwintered larvae."
+      ],
+      "safe_treatments": [
+        "Neem oil spray (5 ml/L) with mild surfactant applied every 5 days during seedling vulnerability window."
+      ],
+      "escalation_criteria": "If cotyledons of newly emerged seedlings have >30% shot-hole damage before first true leaves form.",
+      "sources": ["ICAR-VPKAS Hill Entomological Technical Leaflet"]
+    },
+    {
+      "id": "cutworm",
+      "common_name": "Black Cutworm",
+      "scientific_name": "Agrotis ipsilon",
+      "category": "pest_insect",
+      "affected_crops": ["potato", "cabbage", "cauliflower", "garden_pea", "spinach", "carrot", "broad_bean"],
+      "primary_symptoms": ["chewed_stems", "wilting", "stunted_growth"],
+      "affected_plant_parts": ["stem_base", "soil_level_collar"],
+      "conducive_weather": "Cool spring soil with decaying vegetative residue",
+      "distinguishing_features": "Young seedlings or transplants severed cleanly right at or just beneath the soil level overnight; fallen wilted seedling lying beside intact root; fat, grey-brown caterpillar curled in a 'C' shape hidden 2-5 cm deep in soil near severed plant.",
+      "cultural_controls": [
+        "Clear and turn terrace topsoil 2 weeks before planting to expose dormant larvae to mountain birds and solar UV.",
+        "Keep planting beds completely free of weeds and green residue for 10-14 days prior to sowing."
+      ],
+      "physical_controls": [
+        "Install physical seedling collars: place 5-7 cm tall cylinders made of stiff cardboard or recycled plastic bottles pressed 2 cm into soil around each transplant stem.",
+        "Hand-dig around freshly severed plants at dawn to locate and eliminate the curled caterpillar hiding within a 10 cm radius."
+      ],
+      "biological_controls": [
+        "Soil drench with Steinernema carpocapsae nematodes or Beauveria bassiana."
+      ],
+      "safe_treatments": [
+        "Crushed neem cake (Azadirachta indica seed cake) incorporated at 50 g/m² during terrace bed preparation."
+      ],
+      "escalation_criteria": "If more than 10% of new transplants are felled within the first 3 nights.",
+      "sources": ["ICAR-CPRI & SKUAST Mountain Soil Entomology Guide"]
+    },
+    {
+      "id": "damping_off_root_rot",
+      "common_name": "Damping-off & Root Rot Complex",
+      "scientific_name": "Pythium spp. / Rhizoctonia solani / Fusarium spp.",
+      "category": "disease_fungal_soilborne",
+      "affected_crops": ["garden_pea", "spinach", "carrot", "cabbage", "cauliflower", "broad_bean"],
+      "primary_symptoms": ["poor_germination", "wilting", "rotting_plant_parts", "damaged_roots"],
+      "affected_plant_parts": ["seeds", "seedling_collar", "taproot"],
+      "conducive_weather": "Cold, soggy, compacted soil with poor drainage; overwatering in low sunshine terraces",
+      "distinguishing_features": "Seeds rot before emergence; newly emerged seedlings pinch thin, become water-soaked and brown at soil line, collapsing flat onto the ground; root system is dark, mushy, and devoid of white feeding hairs.",
+      "cultural_controls": [
+        "Never plant into cold, waterlogged, heavy clay soil; construct 20 cm raised terrace beds with coarse sand and compost.",
+        "Avoid sowing seeds too deep where cold soil delays emergence.",
+        "Allow upper 2 cm of soil to dry slightly between irrigations."
+      ],
+      "physical_controls": [
+        "Solarize terrace seedbeds with clear plastic film for 3 weeks prior to spring planting if sunny weather permits.",
+        "Discard collapsed seedlings along with adjacent soil immediately."
+      ],
+      "biological_controls": [
+        "Seed treatment with Trichoderma harzianum or Trichoderma viride powder (4-5 g per kg seed) before planting.",
+        "Enrich farmyard manure with Trichoderma 15 days before soil application."
+      ],
+      "safe_treatments": [
+        "Soil drench with copper hydroxide or bio-fungicide slurry at base of remaining healthy seedlings."
+      ],
+      "escalation_criteria": "If seed germination rate drops below 40% accompanied by collar constriction in emerging rows.",
+      "sources": ["ICAR-VPKAS Soil Health & Seed Pathology Guide"]
+    },
+    {
+      "id": "frost_cold_injury",
+      "common_name": "Nocturnal Radiation Frost Injury",
+      "scientific_name": "Abiotic Thermal Stress (Freeze Desiccation)",
+      "category": "abiotic_stress",
+      "affected_crops": ["potato", "buckwheat", "garden_pea", "cabbage", "cauliflower", "spinach", "carrot", "radish"],
+      "primary_symptoms": ["wilting", "rotting_plant_parts", "yellowing"],
+      "affected_plant_parts": ["leaf_tips", "growing_shoots", "foliage"],
+      "conducive_weather": "Sub-zero night temperatures, calm cloudless skies following a sunny day (radiation freeze)",
+      "distinguishing_features": "Water-soaked dark green/black translucent foliage immediately following morning thaw; crispy blackened shoot tips; no visible fungal mycelium or insect puncture marks; affects top exposed canopy while sheltered lower leaves remain green.",
+      "cultural_controls": [
+        "Light evening furrow irrigation before an anticipated frost night: moist soil absorbs more heat during the day and re-radiates it slowly overnight compared to dry soil.",
+        "Erect windward thermal screens or plant broad beans as an upper-terrace wind barrier."
+      ],
+      "physical_controls": [
+        "Cover terrace beds with thermal agrifleece or clean dry straw before sunset; remove or ventilate next morning once sun warms air above 4°C.",
+        "Avoid touching or disturbing frozen brittle plants until they have naturally thawed in morning light."
+      ],
+      "biological_controls": [
+        "Foliar spray of seaweed extract (Ascophyllum nodosum) or potassium silicate 48 hours before cold waves to increase cellular sap osmotic pressure."
+      ],
+      "safe_treatments": [
+        "Light sprinkler misting just before sunrise can release latent heat of fusion to prevent internal ice crystallization in leaves."
+      ],
+      "escalation_criteria": "If ground temperatures drop below -5°C for more than 4 consecutive nocturnal hours on potato foliage.",
+      "sources": ["FAO Mountain Agriculture & ICAR Cold Arid Agro-meteorology Studies"]
+    },
+    {
+      "id": "waterlogging_asphyxia",
+      "common_name": "Terrace Waterlogging & Root Hypoxia",
+      "scientific_name": "Abiotic Soil Oxygen Deprivation",
+      "category": "abiotic_stress",
+      "affected_crops": ["potato", "barley", "carrot", "radish", "garden_pea", "broad_bean"],
+      "primary_symptoms": ["yellowing", "wilting", "stunted_growth", "damaged_roots"],
+      "affected_plant_parts": ["entire_root_system", "lower_foliage"],
+      "conducive_weather": "Continuous rains, poor drainage, flat terraces without exit spillways, heavy clay soil",
+      "distinguishing_features": "Uniform chlorotic pale yellowing of lower leaves moving upward; plants wilt despite wet soil because suffocated roots cannot uptake water; sour fermented odor when soil is probed; dark grey or black rotted root tips lacking root hairs.",
+      "cultural_controls": [
+        "Install 15-20 cm contour drainage furrows with a gentle 0.5% grade directed toward safe stone spillways.",
+        "Incorporate coarse sand, gravel chips, and mature fibrous compost into sticky clay terraces.",
+        "Switch to ridged planting beds for sensitive root crops like potatoes and carrots."
+      ],
+      "physical_controls": [
+        "Immediately dig relief exit trenches along the inner heel of the terrace to drain perched surface puddles away from crops.",
+        "Aerate the upper 3 cm of compacted crust with a hand hoe once soil dries enough not to smear."
+      ],
+      "biological_controls": [
+        "Inoculation with mycorrhizal fungi (VAM) after drainage is restored to stimulate root regeneration."
+      ],
+      "safe_treatments": [
+        "Foliar feed with diluted compost tea or liquid vermiwash to supply micronutrients bypassing damaged roots during recovery."
+      ],
+      "escalation_criteria": "If water stands pooled for >36 hours in cold temperatures, causing complete root necrosis.",
+      "sources": ["ICAR-VPKAS Almora Drainage & Terrace Engineering Research"]
+    }
+  ]
+}

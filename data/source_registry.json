@@ -1,0 +1,82 @@
+{
+  "registry_version": "1.0",
+  "institutions": [
+    {
+      "id": "icar_cpri",
+      "name": "ICAR - Central Potato Research Institute (CPRI)",
+      "location": "Shimla, Himachal Pradesh, India",
+      "domain": "Tuber crops, hill potato agronomy, late blight forecasting, cold terrace cultivation",
+      "url": "https://cpri.icar.gov.in",
+      "key_publications": [
+        "Potato Production in High Altitude Zones of North-Western Himalayas (Tech. Bull. No. 42)",
+        "Organic Tuber Seed Management in Hill Agro-Ecosystems (CPRI Extension Leaflet 2019)"
+      ]
+    },
+    {
+      "id": "icar_vpkas",
+      "name": "ICAR - Vivekananda Parvatiya Krishi Anusandhan Sansthan (VPKAS)",
+      "location": "Almora, Uttarakhand, India",
+      "domain": "Hill agriculture, mountain terrace soil conservation, cold-tolerant vegetables, pulses",
+      "url": "https://vpkas.icar.gov.in",
+      "key_publications": [
+        "Package of Practices for Mountain Vegetable Crops (VPKAS Tech Bull 2021)",
+        "Soil and Water Conservation on Himalayan Agricultural Terraces (ICAR-VPKAS Res. Bull. 38)"
+      ]
+    },
+    {
+      "id": "icar_iari_katrain",
+      "name": "ICAR - Indian Agricultural Research Institute (IARI) Regional Station Katrain",
+      "location": "Kullu Valley, Himachal Pradesh, India",
+      "domain": "Temperate vegetable breeding, cabbage, cauliflower, turnip, radish seed production",
+      "url": "https://www.iari.res.in",
+      "key_publications": [
+        "Temperate Cole Crops Cultivation Guide for Himalayan Valleys",
+        "Breeding for Cold Tolerance in Root and Cruciferous Vegetables (IARI Monograph)"
+      ]
+    },
+    {
+      "id": "icar_iiwbr",
+      "name": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR)",
+      "location": "Karnal / Hill Stations, India",
+      "domain": "Hill barley, naked barley (Grim) cultivation in high Himalayas, frost resistance",
+      "url": "https://iiwbr.icar.gov.in",
+      "key_publications": [
+        "Barley Cultivation in Northern Hills Zone of India (ICAR-IIWBR Bull 14)",
+        "Naked Barley: Staple Food Security in High Altitude Cold Terraces"
+      ]
+    },
+    {
+      "id": "icar_nbpgr_shimla",
+      "name": "ICAR - National Bureau of Plant Genetic Resources (NBPGR) Regional Station",
+      "location": "Phagli, Shimla, HP, India",
+      "domain": "Buckwheat (Fagopyrum), amaranth, pseudo-cereals, mountain crop genetic diversity",
+      "url": "http://www.nbpgr.ernet.in",
+      "key_publications": [
+        "Buckwheat Cultivation and Processing in Himalayan Cold Terraces (NBPGR Tech. Report)",
+        "Tartary Buckwheat Agronomy in Marginal Mountain Soils"
+      ]
+    },
+    {
+      "id": "ysp_uhf_solan",
+      "name": "Dr. Y.S. Parmar University of Horticulture and Forestry",
+      "location": "Nauni, Solan, Himachal Pradesh, India",
+      "domain": "Temperate horticulture, organic mountain vegetable production, terrace pest management",
+      "url": "http://www.yspuniversity.ac.in",
+      "key_publications": [
+        "Integrated Pest and Disease Management in Temperate Hill Vegetables (UHF Ext. Guide)",
+        "Mulching and Micro-irrigation Techniques for Hill Slope Terraces"
+      ]
+    },
+    {
+      "id": "skuast_k_leh",
+      "name": "Sher-e-Kashmir University of Agricultural Sciences and Technology (SKUAST-K) & KVK Leh",
+      "location": "Ladakh & Kashmir, India",
+      "domain": "High altitude cold desert agriculture, trench cultivation, frost protection, short season crops",
+      "url": "https://skuastkashmir.ac.in",
+      "key_publications": [
+        "Cultivation of Vegetables in High Altitude Cold Terraces of Ladakh (KVK Leh Bull)",
+        "Trench and Poly-mulch Farming for High Himalayan Farmers"
+      ]
+    }
+  ]
+}
